@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha --recursive",
+    "test": "nyc --reporter=lcov --reporter=text -- npm run mocha",
+    "codecov": "npm run test && ./node_modules/.bin/codecov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codecov": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
+  }
+}
