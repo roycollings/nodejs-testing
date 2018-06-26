@@ -7,14 +7,14 @@ module.exports = {
         let result = [];
 
         for (i=0; i< numStr.length; i++){
-            result[i] = getAsWord(numStr[i]);
+            result[i] = getNumberAsWord(numStr[i]);
         }
 
         return result;
     }
 }
 
-function getAsWord(num){
+function getNumberAsWord(num){
     switch(num){
         case '1': return 'one';
         case '2': return 'two';
