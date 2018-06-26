@@ -2,11 +2,11 @@ module.exports = {
     /**
      * @returns an array of words for each number, in the order given.
      */
-    "getNumberAsWords": (num) =>{
+    "getNumberAsWords": (num) => {
         let numStr = num.toString().split('');
         let result = [];
 
-        for (i=0; i< numStr.length; i++){
+        for (i = 0; i < numStr.length; i++) {
             result[i] = getNumberAsWord(numStr[i]);
         }
 
@@ -15,7 +15,7 @@ module.exports = {
 }
 
 function getNumberAsWord(num){
-    switch(num){
+    switch (num) {
         case '1': return 'one';
         case '2': return 'two';
         case '3': return 'three';
