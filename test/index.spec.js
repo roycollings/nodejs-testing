@@ -1,10 +1,8 @@
-'use strict'
-
-const assert = require('assert')
-const underTest = require('../')
+const assert = require('assert');
+var basicMaths = require('../src/BasicMaths');
 
 describe('Test', () => {
-  it('should multiple element in given list by 2 and return the total', () => {
-    assert(underTest.multiplier([1,2,3]) === 12)
+  it('should add 2 and return the total', () => {
+    assert(4 === basicMaths.add(2, 2));
   })
 })
