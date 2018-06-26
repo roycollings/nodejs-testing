@@ -1,6 +1,4 @@
 codecov:
-  token: 050c95a6-9c1b-4540-945e-5d75192c7ab9
-
   notify:
     require_ci_to_pass: yes
 
@@ -23,6 +21,6 @@ parsers:
       macro: no
 
 comment:
-  layout: "header, diff"
-  behavior: default
+  layout: "header, reach, diff"
+  behavior: new
   require_changes: no
