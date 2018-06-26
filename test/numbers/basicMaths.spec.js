@@ -1,5 +1,5 @@
 const assert = require('assert');
-var basicMaths = require('../src/basicMaths');
+var basicMaths = require('../../src/numbers/basicMaths');
 
 describe('Test', () => {
   it('should add 2 and return the total', () => {

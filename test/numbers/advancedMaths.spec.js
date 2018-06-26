@@ -1,5 +1,5 @@
 const assert = require('assert');
-var advancedMaths = require('../src/advancedMaths');
+var advancedMaths = require('../../src/numbers/advancedMaths.js');
 
 describe('Test', () => {
   it('should multiply 2 and return the total', () => {
